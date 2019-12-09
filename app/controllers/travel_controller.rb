@@ -8,8 +8,8 @@ class TravelController < ApplicationController
       flash[:alert] = 'Country not found'
       return render action: :index
     end
-    @country = countries.first
-    
+    puts @country = countries.first
+    #puts @weather = find_weather(@country['capital'], @country['alpha2Code'])
   end
 
   def find_weather(city, country_code)
