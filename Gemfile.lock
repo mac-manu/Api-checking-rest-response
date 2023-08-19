@@ -134,7 +134,7 @@ GEM
       ast (~> 2.4.1)
     popper_js (1.16.1)
     public_suffix (5.0.1)
-    puma (4.3.12)
+    puma (5.6.7)
       nio4r (~> 2.0)
     racc (1.6.2)
     rack (2.2.7)
@@ -260,7 +260,7 @@ DEPENDENCIES
   excon
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
-  puma (~> 4.3)
+  puma (~> 5.6)
   rails (~> 6.0.2.rc1)
   rubocop
   sass-rails (>= 6)
